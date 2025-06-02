@@ -1,50 +1,49 @@
-<html><pre>
 This file folder contains the supplemental codes for the manuscript:
 
 Lee, C.-C., Anton, M., Poon, C.-S., and McRae G. J. (2009) The Unified
 Theory of Homosynaptic Short Term Depression and Facilitation,
-J. Comput. Neurosci. 26(3):459-473.
+*J. Comput. Neurosci.* 26(3):459-473.
 
 Files in the main directory are either the .m for standard Matlab
 codes or .sml of Simulink Model files.  In addition, "Input" folder
 includes the experimental transient responses of synapses under
-faciliation and mixture effects; "Output" folder contains the
+facilitation and mixture effects; "Output" folder contains the
 simulation results output by Simulink files.  Here is the list
 describing the contents of individual .m and .sml files.  The first
 points below contain examples of how the matlab code corresponds to
 the paper figures.
 
-1.  Analytical_freq_sim.mdl and Analytical_freq.m: This file set
+1. Analytical_freq_sim.mdl and Analytical_freq.m: This file set
 calculates the transient response of presynapses by both simulation
 and average approximation.  Running analytic_freq from the matlab
 command line reproduces figures 2a,b:
 
-<img src="./fig2a.jpg" alt="figure 2a">
+![figure 2a](./fig2a.jpg)
 
-<img src="./fig2b.jpg" alt="figure 2b">
+![figure 2b](./fig2b.jpg)
 
-2.  Facilitation.mdl, facilitation_freq.m, facilitation_presyn.m,
+2. Facilitation.mdl, facilitation_freq.m, facilitation_presyn.m,
 facilitation_temp.m: This file set generates the transient and
 frequency EPSC responses of facilitating synapses.  The Probability of
 release and Ratio of realeasable vehsicle resposes are also output.
 Running facilitation_freq generates figure 3a,b:
 
-<img src="./fig3a.jpg" alt="figure 3a">
+![figure 3a](./fig3a.jpg)
 
-<img src="./fig3b.jpg" alt="figure 3b">
+![figure 3b](./fig3b.jpg)
 
 and facilitation_temp generates figures 3c,d:
 
-<img src="./fig3c.jpg" alt="figure 3c">
+![figure 3c](./fig3c.jpg)
 
-<img src="./fig3d.jpg" alt="figure 3d">
+![figure 3d](./fig3d.jpg)
 
-3.  Depression.mdl, depression_freq.m, depression_presyn.m,
+3. Depression.mdl, depression_freq.m, depression_presyn.m,
 depression_temp.m: This file set generates the transient and frequency
 EPSC responses of depressing synapses.  The Probability of release and
 Ratio of realeasable vehsicle resposes are also output.
 
-4.  Mixture.mdl, mixture_freq.m, mixture_presyn.m, mixture_temp.m:
+4. Mixture.mdl, mixture_freq.m, mixture_presyn.m, mixture_temp.m:
 This file set generates the transient and frequency EPSP responses of
 facilitating synapses.  The Probability of release and Ratio of
 realeasable vehsicle resposes are also output.
@@ -54,4 +53,7 @@ calculate the resonance frequency response of synapses with different
 parameters and plots its 2D and 3D responses, respectively.  In
 addition, resonance_freq_3D.m generates the perturbation surfaces,
 resonance frequency, and the bandwidth of frequency response.
-</pre></html>
+
+---
+
+2025-06-02: Converted README to Markdown.
